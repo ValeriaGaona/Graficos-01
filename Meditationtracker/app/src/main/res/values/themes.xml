@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema principal del proyecto -->
+    <style name="Theme.MeditationTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Personaliza tus colores -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+
+        <!-- Configuración de ventana -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+
+        <!-- Evita ActionBar si usas Compose -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
